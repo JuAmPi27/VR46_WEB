@@ -12,6 +12,11 @@ body{
     margin: 0;
 }
 
+.img-h1{
+    width: 10%;
+    margin-left: 80px;
+}
+
 .container{
     background-color: #fafafa;
     transform-origin: top left;
@@ -53,7 +58,7 @@ body{
     background: transparent;
     border: 0;
     font-size: 26px;
-    color: #fff;
+    color: #f6f611;
 }
 
 .circle button:focus{
@@ -96,9 +101,15 @@ nav ul li{
     transition: transform 0.4s ease-in;
 }
 
+nav ul li a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 nav ul li i{
     font-size: 20px;
     margin-right: 10px;
+    color: #0404a8;
+
 }
 
 nav ul li + li{
@@ -156,6 +167,9 @@ section img:hover {
     opacity: 1;
     filter: contrast(120%);
 }
+
+
+
 
 
 
